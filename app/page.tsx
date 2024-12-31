@@ -60,11 +60,11 @@ export default function Home() {
               key={index}
               className="bg-gray-800 p-5 rounded-lg shadow-lg hover:shadow-xl"
             >
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center gap-5 flex-wrap">
                 <p className="text-sm text-gray-400">Email/Phone Number:</p>
                 <p className="text-sm text-gray-200">{data.email}</p>
               </div>
-              <div className="flex justify-between items-center mt-2">
+              <div className="flex justify-between items-center mt-2 gap-5 flex-wrap">
                 <p className="text-sm text-gray-400">Passwords:</p>
                 <p className="text-sm text-gray-200">
                   {data.password.join(', ')}
